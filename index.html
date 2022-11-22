@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator built with JavaScript + Webpack</title>
+    <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon">
+    <script src="./assets/js/bundle.js" defer></script>
+</head>
+<body>
+    <section class="container">
+        <div id="header">
+            <img src="./assets/img/logo.svg" alt="Password Locker">
+            <h1 class="title">Password Generator</h1>
+        </div>
+        <div class="generatedPassword">Password will appear here</div>
+        <span>Length:</span>
+        <input type="number" min="1" max="50" class="length" value="20">
+        <br>
+        <input type="checkbox" class="lowerCaseLettersCheckbox" checked>
+        <span>Lower case letters</span>
+        <br>
+        <input type="checkbox" class="upperCaseLettersCheckbox">
+        <span>Upper case letters</span>
+        <br>
+        <input type="checkbox" class="numbersCheckbox">
+        <span>Numbers</span>
+        <br>
+        <input type="checkbox" class="symbolsCheckbox" checked>
+        <span>Symbols</span>
+        <br>
+        <div class="buttonContainer">
+            <button class="generatePasswordButton">Generate Password</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Built with <span id="heartEntity">&#10084;</span> by <a href="https://beacons.ai/elisa_amaral"
+            target="_blank">Elisa Amaral</a></p>
+    </footer>
+</body>
+</html>
