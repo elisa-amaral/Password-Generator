@@ -1,6 +1,6 @@
 # Password Generator built with JavaScript + Webpack
 
-This project is a password generator that generates passwords with up to 20 characters. The user can choose to add lower case letters, upper case letters, numbers and symbols to each password. 
+This project is a password generator that creates passwords with up to 20 characters. The user can choose to add lower case letters, upper case letters, numbers and symbols to each password. 
 
 Webpack was used to implement JavaScript module bundling.
 
