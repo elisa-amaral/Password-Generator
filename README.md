@@ -8,7 +8,7 @@ Node.js modules (*node_modules* directory) were added to _.gitignore_
 
 ## Project Website
 
-https://elisa-amaral.github.io/Password-Generator-built-with-JavaScript-and-Webpack/
+https://elisa-amaral.github.io/Password-Generator/
 
 ## Screenshot
 
@@ -17,6 +17,7 @@ https://elisa-amaral.github.io/Password-Generator-built-with-JavaScript-and-Webp
 ## Technology Stack
 
 + JavaScript
++ Node Package Manager (NPM)
 + Webpack (module bundler)
 + HTML
 + CSS
